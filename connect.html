@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/vendor/normalize.css">
+	<link rel="stylesheet" href="css/vendor/foundationGrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<main id="main" class="main">
+		<header id="header" class="header">
+			<span class="logoIcon"></span>
+			<div class="logo">
+				<a href="index.html"><span class="logoIcon"></span></a>
+			</div>
+			<nav class="nav">
+				<h3 class="h3"></h3>
+				<h3 class="h3"><a href="app.html">app</a></h3>
+				<h3 class="h3"><a href="learn.html">learn</a></h3>
+				<h3 class="h3"><a href="social.html">connect</a></h3>
+				<h3 class="h3"><a href="about.html">about</a></h3>
+				<h3 class="h3"><a href="team.html">team</a></h3>
+			</nav>
+		</header>
+		<section class="fb">
+			<div class="fbMsg">
+				<h3>leave us feedback here. we love hearing from you!</h3>
+			</div>
+			<!-- facebook comment box plugin -->
+			<div class="socialPlugin">
+				<div id="fb-root" class="social"></div>
+				<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+					  fjs.parentNode.insertBefore(js, fjs);
+					  }(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div class="fb-comments" data-href="https://emkolar.ninja/fairtrade/" data-width="500" data-numposts="5"></div>
+				<meta property="fb:app_id" content="1724740287740556" />
+			</div>
+		
+		</section>
+		
+	</main>
+	
+</body>
+</html>

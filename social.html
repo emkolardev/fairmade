@@ -6,28 +6,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" href="css/vendor/normalize.css">
-	<link rel="stylesheet" href="css/vendor/foundationGrid.css">
+	<!-- <link rel="stylesheet" href="css/vendor/foundationGrid.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	
-	<main id="main" class="container">
+	<main id="main" class="main">
 		<header id="header" class="header">
+			
 			<div class="logo">
-				<a href="index.html"><h1 class="h1">fairmade</h1></a>
+				<a href="index.html"><span class="logoIcon"></span></a>
 			</div>
 			<nav class="nav">
 				<h3 class="h3"></h3>
-				<h3 class="h3"><a href="app.html">app</a></h3>
+				<h3 class="h3"><a href="EmWebBuild/EmWebBuild.html" target="_blank">app</a></h3>
 				<h3 class="h3"><a href="learn.html">learn</a></h3>
-				<h3 class="h3"><a href="social.html">social</a></h3>
+				<h3 class="h3"><a href="social.html">connect<span class="sound"></span></a></h3>
 				<h3 class="h3"><a href="about.html">about</a></h3>
+				<h3 class="h3"><a href="team.html">team</a></h3>
 			</nav>
 		</header>
+		<section class="vid">
+			<video controls poster="screenshot.jpg" id="background">
+				<source src="images/fairmadesound.mp4" type="video/mp4">
+			</video>
+		</section>
+
 		<section class="fb">
 			<div class="fbMsg">
-				<h3>leave us feedback here. we love hearing from you!</h3>
+				<h3>connect with us on facebook, twitter, and youtube.<br>we love hearing from you!</h3>
 			</div>
 			<!-- facebook comment box plugin -->
 			<div class="socialPlugin">
@@ -45,7 +52,6 @@
 			</div>
 		
 		</section>
-		
 	</main>
 	
 </body>
