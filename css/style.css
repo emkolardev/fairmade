@@ -110,7 +110,7 @@ a:hover {
 	height: 150px;
 	left: 50px;
 	top: -30px;
-	background-image: url('../images/textlogo.png');
+	background-image: url('../assets/textlogo.png');
 	background-size: 180px 150px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -118,7 +118,7 @@ a:hover {
 }
 
 .top {
-	background-image: url('../images/notmine.jpg');
+	background-image: url('../assets/notmine.jpg');
 	overflow: hidden;
 }
 
@@ -298,17 +298,17 @@ a:hover {
 }
 
 .three {
-	background-image: url('../images/threepercent.png');
+	background-image: url('../assets/threepercent.png');
 	background-size: 80px 80px;
 	
 }
 
 .water {
-	background-image: url('../images/waterdrop.png');
+	background-image: url('../assets/waterdrop.png');
 }
 
 .trex {
-	background-image: url('../images/trex.png');
+	background-image: url('../assets/trex.png');
 }
 
 .triText {
@@ -342,7 +342,6 @@ a:hover {
 	height: calc(100% - 80px);
 	position: absolute;
 	bottom: 0px;
-	background-image: url('../images/app-sketch.jpg');
 	background-size: 100% 100%;
 }
 
@@ -402,13 +401,21 @@ ol {
 
 .vid {
 	z-index: -10;
+	height: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+	overflow: hidden;
+	padding-top: 80px;
 }
 
 .sound {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
-	background-image: url('../images/sound.png');
+	background-image: url('../assets/sound.png');
 	background-repeat: no-repeat;
 	background-size: 10px 10px;
 	background-position: center;
@@ -416,3 +423,40 @@ ol {
 	margin-left: 5px;
 }
 
+.socialPlugin {
+	margin-top: 50px;
+	display: flex;
+}
+
+.stream {
+	max-height: 300px;
+	overflow: scroll;
+}
+
+.dlBtn {
+	background-color: rgba(106,131,44,1);
+	text-align: center;
+	color: white;
+	height: 50px;
+	width: 260px;
+	font-size: 18px;
+	border: none;
+	border-radius: 1px;
+	margin-top: 20px;
+	margin-left: calc((100% - 260px) / 2);
+}
+
+.dlBtn:hover {
+	background-color: rgba(126,151,64,1);
+}
+
+.ui-content {
+    margin : 5px 50px;
+    text-align: center;
+}
+
+
+.ui-collapsible {
+    margin : 5px 400px;
+
+}
